@@ -11,6 +11,19 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  transition: background 0.5s ease;
+}
+
+body.work {
+  background: #ffe5e5;
+}
+
+body.short {
+  background: #e0f0ff;
+}
+
+body.long {
+  background: #e0ffe0;
 }
 
 .container {
@@ -31,7 +44,7 @@ h1 {
   font-size: 64px;
   font-weight: bold;
   margin-bottom: 30px;
-  color: #e74c3c;
+  color: #1f2937;
 }
 
 .controls button {
@@ -45,19 +58,19 @@ h1 {
 }
 
 #start {
-  background-color: #27ae60;
+  background-color: #10b981;
   color: white;
 }
 
 #start:hover {
-  background-color: #219150;
+  background-color: #059669;
 }
 
 #reset {
-  background-color: #c0392b;
+  background-color: #ef4444;
   color: white;
 }
 
 #reset:hover {
-  background-color: #a83225;
+  background-color: #dc2626;
 }
